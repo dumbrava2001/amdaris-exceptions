@@ -10,4 +10,9 @@ public class Money
         Amount = amount;
         Currency = currency;
     }
+
+    public void SubtractAmount(double amount)
+    {
+        Amount -= amount;
+    }
 }
